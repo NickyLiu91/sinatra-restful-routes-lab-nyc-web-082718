@@ -50,6 +50,7 @@ describe "Recipe App" do
     end
 
     it "displays the recipe's cook time" do
+      binding.pry
       expect(last_response.body).to include(recipe_cook_time)
     end
 
